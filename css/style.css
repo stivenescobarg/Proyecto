@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.redes_sociales {
+    list-style: none;
+    display: flex;
+}
+
+li, .contacto {
+    margin: 10px;
+}
+
+.copy {
+    margin-top: 10px;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #212F3C;
+    color: #FFFFFF;
+    position: absolute;
+bottom: 0;
+width: 100%;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link, :visited, :hover, :active{
+    color: #fff;
+}
